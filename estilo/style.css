@@ -11,13 +11,15 @@
 
 
 * {
+    font-family: ;
     margin: 0px;
     padding: 0px
+    
 }
 html, body {
     min-height: 150px;
-    background-color: darkgray;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a7fbd;
+    
 
 }
 header {
@@ -25,22 +27,48 @@ header {
     min-height: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
+    color: #fff;
     padding-top: 15px;
     padding-bottom: 1px;
 
-}
-header a, footer a {
-    color: white;
-    font-size: 1em;
-    max-width: 600px;
-    margin: auto;
-
 
 }
+i#burguer {
+    background-color: gray;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+menu {
+    display: block;
+}
+menu > ul {
+    color: #fff;
+    list-style-type: none;
+
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+menu > ul > li > a:hover {
+
+}
+
 footer {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 10px;
 }
