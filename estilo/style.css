@@ -11,29 +11,39 @@
 
 
 * {
-    font-family: ;
+    font-family: 'noto', Arial, Helvetica, sans-serif;
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    box-sizing: border-box;
     
 }
 html, body {
     min-height: 150px;
+    height: 100px;
     background-color: #1a7fbd;
-    
+
 
 }
 header {
     background-color: #1a7fbd;
-    min-height: 10px;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-decoration: none;
     color: #fff;
+    border-radius: 5px;
     padding-top: 15px;
     padding-bottom: 1px;
+    box-shadow: 0px 0px 7px #000;
 
 
 }
-i#burguer {
+header > div
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+}
+/*i#burguer {
     background-color: gray;
     color: #fff;
     display: block;
@@ -64,7 +74,23 @@ menu > ul > li > a {
 }
 menu > ul > li > a:hover {
 
+}*/
+section#projeto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50% 50%);
+    background-color: #1a7fbd;
+    color: #fff;
+    width: 250px;
+    height: 500px;
+
 }
+section#projeto > div#imagem {
+    background: #1a7fbd url(../imagens/bannertopo.png) no-repeat;
+    background-size: contain;
+    height: 200px;
+} 
 
 footer {
     background-color: #000;

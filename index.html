@@ -8,30 +8,32 @@
     <link rel="stylesheet" href="estilo/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <style>
-        div.bloco {
-
-        }
+        body {
+            background-color: #;
+        } 
     </style>
 </head>
-<body onresize="mudouTamanho()">
+<body>
     <header>        
-                <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <main id="itens">*/
-            <main id="itens">
+        <div class="container menu">
             <ul>
-                <li><a href="#">O Projeto</a></li>
-                <li><a href="#">O Problema</a></li>
-                <li><a href="#">Sua Jornada</a></li>
-                <li><a href="#">Objetivos</a></li>
-                <li><a href="#">Processo Seletivo</a></li>
+                <li><a href="imagens/logo.png">netuno</a></li>
+                <li><a href="o-projeto">O Projeto</a></li>
+                <li><a href="o-problema">O Problema</a></li>
+                <li><a href="sua-jornada">Sua Jornada</a></li>
+                <li><a href="objetivos">Objetivos</a></li>
+                <a class="btn" href="">Processo Seletivo</a>
             </ul>
-        </main>
-    </header>
-    <section div="projeto">
-        <div id="imagem">
-            foto
         </div>
-        <div>
+    </header>
+    <div class="gerando-diamantes">
+        <div><img src="imagens/bannertopo.png" alt="banner de topo"></div>
+        <div>caixa</div>
+    </div>
+    <div class="projeto"></div>
+        <div><img src="imagens/dev.png" alt="banner de projeto">
+        </div>
+        <div class="container o-projeto" id="o-projeto">
             <h2>O Projeto</h2>
 
             <p>
@@ -46,86 +48,101 @@
                 e turn over na área da tecnologia, bem como gerar <br> oportunidades de carreiras para novos profissionais.
             </p>
         </div>
-        </section>
-
-        <section id="problema">
-            <div id="imagem">
-                foto
-            </div>
+    </div>
+    <div class="container problema" id="problema">    
+        <div><img src="imagens/Container2.png" alt="banner do problema">
+        </div>
             
-            <div>
-                <h2>O Problema</h2>
+        <div>
+            <h2>O Problema</h2>
 
-                <p>
-                    Falta de profissionais de TI no Mercado <br> 
-                    brasileiro: um problema que demanda <br> 
-                    atenção urgente.
-                </p>
+            <p>
+                Falta de profissionais de TI no Mercado <br> 
+                brasileiro: um problema que demanda <br> 
+                atenção urgente.
+            </p>
 
-                <p>
-                    Estima-se que atualmente tenhamos um déficit de 408 <br> 
-                    mil postos de trabalho, comperdas se acumulando na <br>  <br>
-                    casa dos R$167 bilhões, de acordo com a Soflex, uma <br> organização social voltada ao formento da área de TI.
-                </p>
+            <p>
+                Estima-se que atualmente tenhamos um déficit de 408 <br> 
+                mil postos de trabalho, comperdas se acumulando na <br>  <br>
+                casa dos R$167 bilhões, de acordo com a Soflex, uma <br> organização social voltada ao formento da área de TI.
+            </p>
 
-                <p>
-                    Um dos principais fatores desta falta de profissionais é <br> 
-                    o êxodo de profissionais para o exterior.
-                </p>
-            </div>
-            <div>
-                3 caixas
-            </div>
+            <p>
+                Um dos principais fatores desta falta de profissionais é <br> 
+                o êxodo de profissionais para o exterior.
+            </p>
+        </div>
+        <div class="oportunidade">
+            <h2>Oportunidade</h2>
+            <p>Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.</p>
+        </div>
+        <div class="comunidade">
+            <h2>Comunidade</h2>
+            <p>Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluida e eficiente</p>
+        </div>
+        <div class="experiencia-real">
+            <h2>Experiencia Real</h2>
+            <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.</p>
+
+        </div>
         
-        </section>
+    </div>
 
-        <section id="jornada">
+        <div class="container jornada" id="jornada">
             <div>
                 <h2>Sua Jornada</h2>
             </div>
-            <div>
-                6 caixas
+            <div class="icon-calendario">
+                <div><img src="icones/calendario.png" alt="calendario"></div>
+                <p>Programas de 4 meses de duração, 6 horas/dia</p>
             </div>
-            <div>
-                1 caixa
+            <div class="icon-medalha">
+                <div><img src="icones/medalha.png" alt="medalha"></div>
+                <p>Do Zero ao Junior</p>
+                <p>Promissor em 4 meses</p>
             </div>
-            <div>
-                foto
+            <div class="icon-relogio">
+                <div><img src="icones/relogio.png" alt="relogio"></div>
+                <p>640 horas de aplicação</p>
+                <p>prática dos conceitos</p>
             </div>
-        </section>
+            <div class="icon-carta">
+                <div><img src="icones/mail.png" alt="mail"></div>
+                <p>Mentoria individual e</p>
+                <p>coletiva em padrão ágil.</p>
+            </div>
+            <div class="icon-grupo">
+                <div></div>
+                <div><img src="icones/group.png" alt="grupo"></div>
+                <p>100% Home Office com plataforma de cursos online.</p>
+            </div>
+            <div class="icon-alvo">
+                <div><img src="icones/target.png" alt="alvo"></div>
+                <p>Variedade de áreas dentro da tecnologia</p>
+            </div>
+            <div class="cadastro">
+                <p>Quero me cadastrar para o Processo Seletivo</p>
+                <div><img src="icones/enter.png" alt="enter"></div>
+                </div>
+                <div><img src="imagens/Vector1.png" alt="banner vetor1"></div>
+        </div>
 
-        <section id="objetivos">
+        <div class="objetivos" id="objetivos">
             <div>
                 <h2>Objetivos</h2>
             </div>
             <div>
                 3 caixas
             </div>
-        </section>
-
-        <footer>
-             fotos: netuno icones
-            /* --*/caixa(projeto seletivo)
-            redes sociais
-            contato
-        </footer>
-    </main>
-    <script>
-        function mudouTamanho() {
-            if (window.innerWidth >= 768) {
-                item.style.display = 'block'
-            }else {
-                itens.style.display = 'none'
-            }
-        }
-/*        function clickMenu() {
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
-            }else {
-                itens.style.display = 'block'
-            }
-            
-        }*/
-    </script>
+        </div>
+    </div>
+    <footer>
+        
+            fotos: netuno icones
+        /* --*/caixa(processo seletivo)
+        redes sociais
+        contato
+    </footer>
 </body>
 </html>
