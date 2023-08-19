@@ -7,140 +7,241 @@
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-        body {
-            background-color: #;
-        } 
-    </style>
+
 </head>
 <body>
     <header>        
-        <div class="container menu">
-            <ul>
-                <li><a href="imagens/logo.png">netuno</a></li>
-                <li><a href="o-projeto">O Projeto</a></li>
-                <li><a href="o-problema">O Problema</a></li>
-                <li><a href="sua-jornada">Sua Jornada</a></li>
-                <li><a href="objetivos">Objetivos</a></li>
-                <a class="btn" href="">Processo Seletivo</a>
+        <nav class="">
+            <a><img src="imagens/logo-2.png" alt="netuno"></a>
+            <a href="#">O Projeto</a>
+            <a href="#">O Problema</a>
+            <a href="#">Sua Jornada</a>
+            <a><button>Processo Seletivo</button></a>
+        </nav>
+    </header>
+    <section id="cadastro">
+        <div class="row between">
+            <img src="imagens/bannertopo4.png" alt="banner de topo">
+            <div class="">
+                <table>
+                        <h1>Formulário de Cadastro</h1>
+                        <h1>Preencha seus Dados</h1>
+                        <tbody>
+                            <label for="inome">Nome Completo</label><br>
+                            <input type="text" name="nome" id="inome" required placeholder="Nome Completo">
+                            <label for="imail">E-Mail</label><br>
+                            <input type="email" name="e-mail" id="imail" required placeholder="E-mail">
+                            <label for="iest">Estado</label>
+                            <input type="text" name="est" id="iest" required placeholder="Estado">
+                        </tbody>
+                        <table>
+                            <tbody>
+                                <h2>Conhecimento de Programação?</h2>
+                                    <tr>
+                                        <tdclass="checkbox">HTML<td>                 <td class="checkbox">CSS</td>
+                                        <td class="checkbox">JavaScript</td>
+                                        <td class="checkbox">PHP</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="checkbox">.NET</td>
+                                        <td class="checkbox">Vue.JS></td>
+                                        <td class="checkbox">ReactJS</td>
+                                        <td class="checkbox">React Native</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="checkbox">Node</td>
+                                        <td class="checkbox">Python</td>
+                                        <td class="checkbox">Flutter</td>
+                                        <td class="checkbox">Outras</td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                        <p>
+                            <h2>Já trabalhou com desemvolvimento?</h2>
+                                <label for="iescsim">Sim</label>
+                                <input type="checkbox" name="escolha" id="iescsim" value="sim" >
+                                <label for="iescnao">Não</label>
+                                <input type="checkbox" name="escolha" id="iescnao" value="nao">
+                        </p>
+                        <p>
+                                <input type="submit" value="enviar">
+                        </p>
+                            <p>Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em política de privacidade</p>
+                                <p>(*)Campos obrigatórios</p>
+                </table>
+                
+            </div>
+        </div>
+    </section>
+    <section id="projeto">
+        <div class="row between">
+            <img src="imagens/dev1.png" alt="pacote">
+            <div class="information">
+                <h2>O Projeto</h2>
+                <ul>
+                    <li>
+                        <p>
+                            Com o "novo normal" causado pela pandemia dos últimos anos, mais empresas no mundo tem aberto oportunidades no modelo Home Office.
+                            Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalho em outros países.
+                            O projeto Netuno, idealizado pela Fasters, tem por  objetivo reduzir os  estresses causados por recrutamento e turn over na área da tecnologia, bem como gerar oportunidades de carreiras para novos profissionais.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row between">    
+            <img src="imagens/Container1.png" alt="netuno50+">    
+            <div class="information">
+                <ul>
+                    <li>
+                        <h3>O Problema</h3>
+                        <p>
+                            Falta de profissionais de TI no mercado 
+                            brasileiro: um problema que demanda 
+                            atenção urgente.
+                            Estima-se que atualmente tenhamos um déficit de 408  
+                            mil postos de trabalho, comperdas se acumulando na 
+                            casa dos R$167 bilhões, de acordo com a Soflex, uma organização social voltada ao formento da área de TI.
+                            Um dos principais fatores desta falta de profissionais é o êxodo de profissionais para o exterior.
+                        </p>
+                    </li>
+                </ul>    
+            </div>
+        </div>
+    </section>
+    <section id="cards">
+        <div class="row">
+            <ul class="row between">
+                <li class="card">
+                    <h4>Oportunidade</h4>
+                    Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.
+                </li>
+            </ul>
+            <ul class="row between">
+                <li class="card">
+                    <h4>Comunidade</h4>
+                    Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluida e eficiente.
+                </li>
+            </ul>    
+            <ul class="row between">
+                <li class="card">
+                    <h4>Experiencia Real</h4>
+                    Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.
+                </li>
             </ul>
         </div>
-    </header>
-    <div class="gerando-diamantes">
-        <div><img src="imagens/bannertopo.png" alt="banner de topo"></div>
-        <div>caixa</div>
-    </div>
-    <div class="projeto"></div>
-        <div><img src="imagens/dev.png" alt="banner de projeto">
+    </section>
+    <section id="plans">    
+        <div class="between">
+            <h3>Sua Jornada</h3>
+            <ul class="row">
+                <li class="card">
+                    <img src="icones/calendario1.png" alt="calendario">
+                </li>
+                <li>
+                    <p>Programas de 4 meses de duração, 6 horas/dia</p>
+                </li>
+            </ul>
+            <ul class="row">    
+                <li class="card">
+                    <img src="icones/medalha1.png" alt="medalha">
+                </li>
+                <li>
+                    <p>Do Zero ao Junior ao Promissor em 4 meses</p>
+                </li>
+            </ul>
+            <ul class="row">
+                <li class="card">
+                    <img src="icones/relogio1.png" alt="relogio">
+                </li>
+                <li>
+                    <p>640 horas de aplicação prática dos conceitos</p>
+                </li>
+            </ul>
+            <ul class="row">
+                <li class="card">
+                    <img src="icones/mail1.png" alt="mail">
+                </li>
+                <li>
+                    <p>Mentoria individual e coletiva em padrão ágil.</p>
+                </li>
+            </ul>
+            <ul class="row">    
+                <li class="card">
+                    <img src="icones/group1.png" alt="grupo">
+                </li>
+                <li>
+                    <p>100% Home Office com plataforma de cursos online.</p>
+                </li>
+            </ul>
+            <ul class="row">
+                <li class="card">
+                    <img src="icones/target1.png" alt="alvo">
+                </li>
+                <li>
+                    <p>Variedade de áreas dentro da tecnologia</p>
+                </li>
+            </ul>
         </div>
-        <div class="container o-projeto" id="o-projeto">
-            <h2>O Projeto</h2>
+    </section>        
+    <section id="procSeletivo">
+        <div class="cad"> 
+            <ul> 
+                <li>
+                    <button>Quero me cadastrar para o <a>Processo Seletivo</a><img src="icones/enter1.png"></button>
+                </li>
+                <li>
+                    <img src="imagens/vetor-1.png" alt="banner vetor1">
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="plans">
+        <div class="row">
+            <h2>Objetivos</h2>
+            <ul class="row">
+                <li class="card">
+                    <h4>Otimizar</h4>
 
-            <p>
-                Com o "novo normal" causado pela pandemia dos <br> 
-                últimos anos, mais empresas no mundo tem aberto <br> oportunidades no modelo Home Office. <br>
-                Alinhado a depreciação da moeda local, temos um alto <br> índice de profissionais migrando para trabalho em 
-                outros países.
-            </p>
+                    <p>Otimizar todo processo da 
+                        contratação chegando a 
+                      contribuir com uma economia 
+                         de 40% no processo de 
+                             recrutamento.</p>           
+                </li>
+            </ul>
+            <ul class="row">            
+                <li class="card">
+                    <h4>Gerar</h4>
 
-            <p>
-                O projeto Netuno, idealizado pela Fasters, tem por <br> objetivo reduzir os  estresses causados por recrutamento <br> 
-                e turn over na área da tecnologia, bem como gerar <br> oportunidades de carreiras para novos profissionais.
-            </p>
-        </div>
-    </div>
-    <div class="container problema" id="problema">    
-        <div><img src="imagens/Container2.png" alt="banner do problema">
-        </div>
-            
-        <div>
-            <h2>O Problema</h2>
+                    <p>Gerar novas oportunidades de 
+                          carreira para pessoas 
+                       interessadas em ingressar na 
+                      área ou migrar de outras áreas 
+                         que esteja descontente.</p>
+                </li>            
+            </ul>
+            <ul class="row">
+                <li class="card">
+                    <h4>Filtrar</h4>
 
-            <p>
-                Falta de profissionais de TI no Mercado <br> 
-                brasileiro: um problema que demanda <br> 
-                atenção urgente.
-            </p>
-
-            <p>
-                Estima-se que atualmente tenhamos um déficit de 408 <br> 
-                mil postos de trabalho, comperdas se acumulando na <br>  <br>
-                casa dos R$167 bilhões, de acordo com a Soflex, uma <br> organização social voltada ao formento da área de TI.
-            </p>
-
-            <p>
-                Um dos principais fatores desta falta de profissionais é <br> 
-                o êxodo de profissionais para o exterior.
-            </p>
+                    <p>Criar oportunidades brilhantes 
+                         para profissionais que se 
+                        destacarem junto a parceiros 
+                          estratégicos de negócios.</p>
+                </li>
+            </ul>
         </div>
-        <div class="oportunidade">
-            <h2>Oportunidade</h2>
-            <p>Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.</p>
-        </div>
-        <div class="comunidade">
-            <h2>Comunidade</h2>
-            <p>Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluida e eficiente</p>
-        </div>
-        <div class="experiencia-real">
-            <h2>Experiencia Real</h2>
-            <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.</p>
-
-        </div>
-        
-    </div>
-
-        <div class="container jornada" id="jornada">
-            <div>
-                <h2>Sua Jornada</h2>
-            </div>
-            <div class="icon-calendario">
-                <div><img src="icones/calendario.png" alt="calendario"></div>
-                <p>Programas de 4 meses de duração, 6 horas/dia</p>
-            </div>
-            <div class="icon-medalha">
-                <div><img src="icones/medalha.png" alt="medalha"></div>
-                <p>Do Zero ao Junior</p>
-                <p>Promissor em 4 meses</p>
-            </div>
-            <div class="icon-relogio">
-                <div><img src="icones/relogio.png" alt="relogio"></div>
-                <p>640 horas de aplicação</p>
-                <p>prática dos conceitos</p>
-            </div>
-            <div class="icon-carta">
-                <div><img src="icones/mail.png" alt="mail"></div>
-                <p>Mentoria individual e</p>
-                <p>coletiva em padrão ágil.</p>
-            </div>
-            <div class="icon-grupo">
-                <div></div>
-                <div><img src="icones/group.png" alt="grupo"></div>
-                <p>100% Home Office com plataforma de cursos online.</p>
-            </div>
-            <div class="icon-alvo">
-                <div><img src="icones/target.png" alt="alvo"></div>
-                <p>Variedade de áreas dentro da tecnologia</p>
-            </div>
-            <div class="cadastro">
-                <p>Quero me cadastrar para o Processo Seletivo</p>
-                <div><img src="icones/enter.png" alt="enter"></div>
-                </div>
-                <div><img src="imagens/Vector1.png" alt="banner vetor1"></div>
-        </div>
-
-        <div class="objetivos" id="objetivos">
-            <div>
-                <h2>Objetivos</h2>
-            </div>
-            <div>
-                3 caixas
-            </div>
-        </div>
-    </div>
+    </section>
     <footer>
-        
-            fotos: netuno icones
-        /* --*/caixa(processo seletivo)
+        <div>
+            <img src="imagens/logo+slogan1.png" alt="netuno">
+        </div>
+        <div>
+            <button>Processo Seletivo</button>
+        </div>
         redes sociais
         contato
     </footer>

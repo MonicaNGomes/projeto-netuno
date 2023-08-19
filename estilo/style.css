@@ -8,90 +8,156 @@
    */
 
 @import url('https://font.google.com/noto/specimen/Noto+Sans?query-noto');
+:root {
+    --fonte: 'noto', Arial, Helvetica, sans-serif;
+    --Cor-Dark: #1a7fbd; 
+    --Cor-ligth: #a4dcff;
+    --cor-prim1: #fff;
+    --cor-prim2: #000;
 
+}
 
 * {
-    font-family: 'noto', Arial, Helvetica, sans-serif;
+    font-family: var(--fonte);
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
-    
-}
-html, body {
-    min-height: 150px;
-    height: 100px;
-    background-color: #1a7fbd;
-
-
+    list-style: none;
+    text-decoration: none;  
 }
 header {
-    background-color: #1a7fbd;
+    background-color: var(--Cor-Dark);
+    color: var(--cor-prim1) inherit;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+a {
+    color: var(--cor-prim1);
+}
+header > div {
+    width: 100%;
+    padding: 2px 5px 2px 5px;
+    text-decoration: none;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 5px;
-    padding-top: 15px;
-    padding-bottom: 1px;
-    box-shadow: 0px 0px 7px #000;
-
-
+    
+    display: flex;
+    align-items: baseline;
+    text-align: center;   
 }
-header > div
-main {
-    position: relative;
-    height: 100vh;
-    width: 100vh;
+li {
+    font-size: 15px;
+    flex-direction: row;
 }
-/*i#burguer {
-    background-color: gray;
-    color: #fff;
-    display: block;
+button  {
+    background-color: var(--cor-prim2);
+    color: var(--cor-prim1);
+    transform: scale(1);
+    font-weight: 800px;
+    padding: 2px 2px 2px 2px;
+    border: 10px solid var(--cor-prim2) ;
+    border-radius: 8px;
+}
+button > hover {
+    transition: 1s  
+}
+.cad >  li >img {
+    align-items: center;
+}
+.cad > li >a {
+    color: var(--Cor-Dark);
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.between {
+    justify-content: space-between;
+}
+#procSeletivo > li {
     text-align: center;
-    padding: 10px;
-    cursor: pointer;
+    color: var(--cor-prim1);
+    transform: scale(1);
+    font-weight: 300px;
+    border: 100px solid var(--cor-prim2) ;
+    border-radius: 10px;
 }
-i#burguer:hover {
-    background-color: #fff;
-    color: #000;
+#procSeletivo > div > img {
+    align-items: end;
 }
-
-menu {
-    display: block;
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
-menu > ul {
-    color: #fff;
-    list-style-type: none;
-
+section div {
+    width: 100%;
+    padding: 4px 2px;
 }
-menu > ul > li > a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
+h2 {
+    font-size: 2rem;
+    color: var(--cor-prim1);
+}
+h3{
+    font-size: 2rem;
+    color: var(--Cor-Dark);
+}
+h4{
+    font-size: 1.5rem;
+    color: var(--cor-prim2);
+}
+h5 {
+    font-size: 15px;
+    color: var(--Cor-Dark);
+}
+td {
+    border: 1px solid white;
+    padding: 8px;
     text-align: center;
-    border-top: 2px solid gray;
+    vertical-align: middle;
 }
-menu > ul > li > a:hover {
-
-}*/
-section#projeto {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(50% 50%);
-    background-color: #1a7fbd;
-    color: #fff;
-    width: 250px;
-    height: 500px;
-
+#cadastro {
+    background-color: var(--Cor-Dark);
 }
-section#projeto > div#imagem {
-    background: #1a7fbd url(../imagens/bannertopo.png) no-repeat;
-    background-size: contain;
-    height: 200px;
+#projeto {
+    background-color: var(--Cor-Dark);
+    color: var(--cor-prim1);
+}
+#projeto > div {
+    text-align: left;
+    color: var(--cor-prim1);
 } 
-
+#plans > h3 {
+    text-align: center;
+}
+#plans {
+    background-color: var(--cor-prim1);
+    color: var(--cor-prim2);
+}
+.card {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+card > h2 {
+    font-size: 1rem;
+}
+card > h3 {
+    font-size: 3rem;
+}
+card > h4 {
+    font-size: 2rem;
+}
+.card > * {
+    padding: 1rem 0;
+}
 footer {
     background-color: #000;
     color: #fff;
