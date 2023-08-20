@@ -22,7 +22,8 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
-    text-decoration: none;  
+    text-decoration: none;
+    display: flex;  
 }
 header {
     background-color: var(--Cor-Dark);
