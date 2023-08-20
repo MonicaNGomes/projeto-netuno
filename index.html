@@ -21,22 +21,22 @@
     </header>
     <section id="cadastro">
         <div class="row between">
-            <img src="imagens/bannertopo4.png" alt="banner de topo">
-            <div class="">
+            <img src="imagens/bannertopo2.png" alt="banner de topo">
+            <div class="dados">
                 <table>
                         <h1>Formulário de Cadastro</h1>
-                        <h1>Preencha seus Dados</h1>
+                        <h6>Preencha seus Dados</h6>
                         <tbody>
-                            <label for="inome">Nome Completo</label><br>
-                            <input type="text" name="nome" id="inome" required placeholder="Nome Completo">
-                            <label for="imail">E-Mail</label><br>
-                            <input type="email" name="e-mail" id="imail" required placeholder="E-mail">
-                            <label for="iest">Estado</label>
-                            <input type="text" name="est" id="iest" required placeholder="Estado">
+                            <label for="inome"></label><br>
+                            <input type="text" name="nome" id="inome" required placeholder="Nome Completo*">
+                            <label for="imail"></label><br>
+                            <input type="email" name="e-mail" id="imail" required placeholder="E-mail*">
+                            <label for="iest"></label>
+                            <input type="text" name="est" id="iest" required placeholder="Estado*">
                         </tbody>
-                        <table>
+                        <table class="ling">
                             <tbody>
-                                <h2>Conhecimento de Programação?</h2>
+                                <h1>Conhecimento de Programação?</h1>
                                     <tr>
                                         <tdclass="checkbox">HTML<td>                 <td class="checkbox">CSS</td>
                                         <td class="checkbox">JavaScript</td>
@@ -57,7 +57,7 @@
                             </tbody>
                         </table>
                         <p>
-                            <h2>Já trabalhou com desemvolvimento?</h2>
+                            <h6>Já trabalhou com desemvolvimento?</h6>
                                 <label for="iescsim">Sim</label>
                                 <input type="checkbox" name="escolha" id="iescsim" value="sim" >
                                 <label for="iescnao">Não</label>
@@ -66,7 +66,7 @@
                         <p>
                                 <input type="submit" value="enviar">
                         </p>
-                            <p>Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em política de privacidade</p>
+                            <p>Ao clicar em enviar, você concorda com <br> todos os termos de uso de dados descritos <br> em política de privacidade</p>
                                 <p>(*)Campos obrigatórios</p>
                 </table>
                 
@@ -128,68 +128,81 @@
             <ul class="row between">
                 <li class="card">
                     <h4>Oportunidade</h4>
-                    Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.
+                    <p>Acreditamos que a combinação <br> 
+                       de interesse, dedicação e <br> 
+                       oportunidade pode causar um <br> 
+                       grande impacto nas pessoas, <br> 
+                       nas organizações e no mundo.</p>
                 </li>
             </ul>
             <ul class="row between">
                 <li class="card">
                     <h4>Comunidade</h4>
-                    Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluida e eficiente.
+                    <p>Dentro de um grupo de pessoas <br> 
+                       mais experientes e acessíveis, <br>
+                       a curva de aprendizado ocorre <br> 
+                       de forma mais rápida, fluida e <br>
+                             eficiente.</p>
                 </li>
             </ul>    
             <ul class="row between">
                 <li class="card">
                     <h4>Experiencia Real</h4>
-                    Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.
+                    <p>Entendemos que somente as <br> 
+                       experiências reais poderão <br>
+                       trazer a bagagem que a <br> 
+                       teoria não o pode fazer.</p>
                 </li>
             </ul>
         </div>
     </section>
-    <section id="plans">    
-        <div class="between">
-            <h3>Sua Jornada</h3>
-            <ul class="row">
-                <li class="card">
+    <section id="plans">
+        <h3>Sua Jornada</h3>    
+        <div class="column">
+            <ul>
+                <li class="card1">
                     <img src="icones/calendario1.png" alt="calendario">
                 </li>
                 <li>
                     <p>Programas de 4 meses de duração, 6 horas/dia</p>
                 </li>
             </ul>
-            <ul class="row">    
-                <li class="card">
+            <ul>    
+                <li class="card1">
                     <img src="icones/medalha1.png" alt="medalha">
                 </li>
                 <li>
                     <p>Do Zero ao Junior ao Promissor em 4 meses</p>
                 </li>
             </ul>
-            <ul class="row">
-                <li class="card">
+            <ul>
+                <li class="card1">
                     <img src="icones/relogio1.png" alt="relogio">
                 </li>
                 <li>
                     <p>640 horas de aplicação prática dos conceitos</p>
                 </li>
             </ul>
-            <ul class="row">
-                <li class="card">
+        </div>
+        <div class="column">
+            <ul class="between">
+                <li class="card1">
                     <img src="icones/mail1.png" alt="mail">
                 </li>
                 <li>
                     <p>Mentoria individual e coletiva em padrão ágil.</p>
                 </li>
             </ul>
-            <ul class="row">    
-                <li class="card">
+            <ul class="between">    
+                <li class="card1">
                     <img src="icones/group1.png" alt="grupo">
                 </li>
                 <li>
                     <p>100% Home Office com plataforma de cursos online.</p>
                 </li>
             </ul>
-            <ul class="row">
-                <li class="card">
+            <ul class="between">
+                <li class="card1">
                     <img src="icones/target1.png" alt="alvo">
                 </li>
                 <li>
@@ -216,19 +229,30 @@
             <ul class="row">
                 <li class="card">
                     <h4>Otimizar</h4>
-                    <p>Otimizar todo processo da contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.</p>           
+                    <p>Otimizar todo processo <br>
+                     da contratação chegando a <br>
+                     contribuir com uma economia <br>
+                     de 40% no processo de <br>
+                      recrutamento.</p>           
                 </li>
             </ul>
             <ul class="row">            
                 <li class="card">
                     <h4>Gerar</h4>
-                    <p>Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.</p>
+                    <p>Gerar novas oportunidades <br>
+                       de carreira para pessoas <br> 
+                       interessadas em ingressar <br> 
+                       na área ou migrar de outras <br>
+                      áreas que esteja descontente.</p>
                 </li>            
             </ul>
             <ul class="row">
                 <li class="card">
                     <h4>Filtrar</h4>
-                    <p>Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.</p>
+                    <p>Criar oportunidades brilhantes <br>
+                         para profissionais que se <br> 
+                        destacarem junto a parceiros <br>
+                         estratégicos de negócios.</p>
                 </li>
             </ul>
         </div>
