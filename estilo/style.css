@@ -29,13 +29,13 @@ header {
     color: var(--cor-prim1) inherit;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 80%;
 }
 a {
     color: var(--cor-prim1);
 }
 header > div {
-    width: 100%;
+    width: 80%;
     padding: 2px 5px 2px 5px;
     text-decoration: none;
     font-weight: bold;
@@ -79,6 +79,10 @@ button > hover {
 .between {
     justify-content: space-between;
 }
+#cadastro#img {
+    background-image: url('../imagens/bannertopo4.png');
+    background-position: right;
+}
 #procSeletivo > li {
     text-align: center;
     color: var(--cor-prim1);
@@ -87,8 +91,11 @@ button > hover {
     border: 100px solid var(--cor-prim2) ;
     border-radius: 10px;
 }
+#procSeletivo > h3 {
+    text-align: center;
+}
 #procSeletivo > div > img {
-    align-items: end;
+    align-items: center;
 }
 section {
     display: flex;
@@ -115,12 +122,6 @@ h5 {
     font-size: 15px;
     color: var(--Cor-Dark);
 }
-td {
-    border: 1px solid white;
-    padding: 8px;
-    text-align: center;
-    vertical-align: middle;
-}
 #cadastro {
     background-color: var(--Cor-Dark);
 }
@@ -129,7 +130,7 @@ td {
     color: var(--cor-prim1);
 }
 #projeto > div {
-    text-align: left;
+    text-align: center;
     color: var(--cor-prim1);
 } 
 #plans > h3 {
@@ -139,6 +140,12 @@ td {
     background-color: var(--cor-prim1);
     color: var(--cor-prim2);
 }
+#obj {
+    background-color: var(--Cor-Dark);
+}
+#obj > h2 {
+    text-align: center;
+}
 .card {
     display: flex;
     width: 30%;
@@ -146,13 +153,13 @@ td {
     justify-content: center;
     align-items: center;
 }
-card > h2 {
+.card > h2 {
     font-size: 1rem;
 }
-card > h3 {
+.card > h3 {
     font-size: 3rem;
 }
-card > h4 {
+.card > h4 {
     font-size: 2rem;
 }
 .card > * {
