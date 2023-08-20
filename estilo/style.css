@@ -52,7 +52,7 @@ button  {
     color: var(--cor-prim1);
     transform: scale(1);
     font-weight: 700px;
-    padding: .5px .5px .5px .5px;
+    padding: .5px .5px .5px .5px !important;
     border: 2px solid var(--cor-prim2) ;
     border-radius: 8px;
 }
@@ -198,5 +198,9 @@ footer {
 }
 footer > button {
     background-color: var(--cor-prim1);
-    color: var(--cor-prim1);
+    color: var(--cor-prim2);
+    font-weight: 700px;
+    padding: .5px .5px .5px .5px;
+    border: 2px solid var(--cor-prim2) ;
+    border-radius: 8px;
 }
