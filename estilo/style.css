@@ -73,12 +73,15 @@ button {
 .between {
     justify-content: space-between;
 }
+
 #cadastro > * {
     font-size: xx-small;
-}
-#cadastro > div {
     background-color: var(--Cor-Dark);
 }
+#cadastro > img {
+    
+}
+
 #procSeletivo > li {
     text-align: center;
     color: var(--cor-prim1);
@@ -134,9 +137,7 @@ h5 {
     font-size: 15px;
     color: var(--Cor-Dark);
 }
-#cadastro {
-    background-color: var(--Cor-Dark);
-}
+
 #projeto {
     background-color: var(--Cor-Dark);
     color: var(--cor-prim1);
@@ -144,7 +145,8 @@ h5 {
 #projeto > div {
     text-align: center;
     color: var(--cor-prim1);
-} 
+}
+ 
 #plans > h3 {
     text-align: center;
     font-size: xx-large;
@@ -163,11 +165,14 @@ h5 {
     text-align: center;
 }
 .card {
-    display: flex;
-    width: 200px;
+    width: 120px;
+    height: 200px;
     flex-direction: column;
     justify-content: center;
     font-size: smaller;
+    padding: 20px;
+    border: 1px solid var(--cor-prim2);
+    border-radius: 10px;
 }
 .cad >  li >img {
     align-items: center;
@@ -191,6 +196,10 @@ h5 {
 footer {
     background-color: #000;
     color: #fff;
-    text-align: center;
     padding: 10px;
+    font-size: smaller;
+}
+footer > button {
+    background-color: var(--cor-prim1);
+    color: var(--cor-prim1);
 }
